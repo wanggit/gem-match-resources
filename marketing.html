@@ -1,0 +1,123 @@
+<!--
+  ============================================================================
+  Gem Match — Marketing / Landing page (GitHub Pages ready, self-contained)
+  ----------------------------------------------------------------------------
+  App Store Connect "Marketing URL" page.
+  Screenshots live in ./screenshots/ (compressed JPEGs of the in-game shots).
+  ============================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gem Match — A match-3 adventure around the world · 环游世界的三消冒险</title>
+<meta name="description" content="Gem Match is a match-3 puzzle adventure: swap gems, trigger combos, explore world landmarks, beat daily challenges and climb the Battle Pass. Coming soon to the App Store.">
+<style>
+  :root { --bg:#0E0820; --card:#1B1230; --fg:#EDEAF6; --muted:#A79FC4; --accent:#6FE39A; --accent2:#8E5BD8; --line:#2E2150; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif;
+         line-height:1.7; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 20px 80px; }
+  header.hero { text-align:center; padding:64px 20px 28px;
+                background:radial-gradient(1200px 480px at 50% -80px, rgba(142,91,216,.35), transparent 70%); }
+  .logo { width:96px; height:96px; border-radius:22px; margin-bottom:16px;
+          background:linear-gradient(135deg,#6FE39A,#8E5BD8); display:inline-block;
+          box-shadow:0 12px 32px rgba(142,91,216,.45); }
+  h1 { font-size:38px; margin:6px 0 4px; letter-spacing:.5px; }
+  .tag { color:var(--muted); font-size:17px; max-width:640px; margin:0 auto; }
+  .tag b { color:var(--accent); font-weight:600; }
+  .badge { display:inline-block; margin-top:18px; padding:10px 22px; border-radius:999px;
+           border:1px solid var(--accent); color:var(--accent); font-weight:700; font-size:14px; }
+  nav { text-align:center; margin:10px 0 6px; }
+  nav a { color:var(--accent); text-decoration:none; margin:0 10px; font-size:14px; font-weight:600; }
+  h2 { font-size:24px; color:var(--accent); margin:56px 0 6px; text-align:center; }
+  h2 .zh { color:var(--muted); font-size:17px; font-weight:600; margin-left:10px; }
+  .lead { text-align:center; color:var(--muted); max-width:680px; margin:0 auto 26px; font-size:15px; }
+  .shots { display:flex; gap:16px; overflow-x:auto; padding:8px 4px 18px;
+           scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; }
+  .shots figure { flex:0 0 240px; margin:0; scroll-snap-align:center; }
+  .shots img { width:240px; border-radius:20px; border:1px solid var(--line);
+               box-shadow:0 10px 28px rgba(0,0,0,.45); display:block; }
+  .shots figcaption { text-align:center; color:var(--muted); font-size:13px; margin-top:8px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:8px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 20px; }
+  .card h3 { margin:0 0 6px; font-size:16px; color:var(--fg); }
+  .card h3 .ico { margin-right:8px; }
+  .card p { margin:0; font-size:14px; color:var(--muted); }
+  .card p b { color:var(--fg); font-weight:600; }
+  ul.feat { max-width:680px; margin:10px auto; padding-left:22px; font-size:14.5px; }
+  ul.feat li { margin:6px 0; }
+  .cta { text-align:center; margin:64px 0 8px; }
+  .cta .badge { font-size:16px; padding:14px 32px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:48px; }
+  footer a { color:var(--accent); text-decoration:none; margin:0 8px; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <span class="logo"></span>
+  <h1>Gem Match</h1>
+  <p class="tag">Swap, match &amp; blast your way around the world.<br>
+     <b>交换、消除、引爆</b>——一场环游世界的三消冒险。</p>
+  <span class="badge">Coming soon on the App Store · 即将登陆 App Store</span>
+</header>
+
+<nav>
+  <a href="support.html">Support · 技术支持</a>
+  <a href="privacy.html">Privacy · 隐私政策</a>
+</nav>
+
+<div class="wrap">
+
+  <h2>Screenshots<span class="zh">游戏截图</span></h2>
+  <p class="lead">Real in-game shots — from the board to the world map, daily challenge and Battle Pass.<br>
+     真实游戏画面——棋盘、世界地图、每日挑战与战斗通行证。</p>
+  <div class="shots">
+    <figure><img src="screenshots/01_gameplay.jpg" alt="Gem Match gameplay board with combos and power-ups"><figcaption>Classic match-3 board · 经典三消棋盘</figcaption></figure>
+    <figure><img src="screenshots/02_main_menu.jpg" alt="Gem Match main menu with world map"><figcaption>Main menu &amp; world map · 主菜单与世界地图</figcaption></figure>
+    <figure><img src="screenshots/03_passport.jpg" alt="Gem Match passport collecting landmarks"><figcaption>Passport &amp; landmarks · 护照与地标</figcaption></figure>
+    <figure><img src="screenshots/04_daily_challenge.jpg" alt="Gem Match daily challenge screen"><figcaption>Daily Challenge · 每日挑战</figcaption></figure>
+    <figure><img src="screenshots/05_battle_pass.jpg" alt="Gem Match battle pass tiers"><figcaption>Battle Pass · 战斗通行证</figcaption></figure>
+  </div>
+
+  <h2>How it plays<span class="zh">核心玩法</span></h2>
+  <p class="lead">Easy to learn, hard to put down. One goal per level: reach the target score before you run out of moves.<br>
+     每关目标：在步数用完前达到目标分数。</p>
+  <div class="grid">
+    <div class="card"><h3><span class="ico">💎</span>Match &amp; Combo · 消除与连击</h3>
+      <p>Swap two adjacent gems to match 3+. Chain cascades for <b>COMBO</b> multipliers.<br>交换相邻宝石凑成三消，连锁消除触发连击加成。</p></div>
+    <div class="card"><h3><span class="ico">🌈</span>Special Gems · 特殊宝石</h3>
+      <p>Match 4 for a <b>Line clearer</b>, 5 for a <b>Rainbow</b>, an L/T shape for a <b>Wrapped gem</b> that blows up a 5×5 zone.<br>四连成直线、五连成彩虹、L/T 形生成包裹宝石，引爆 5×5 范围。</p></div>
+    <div class="card"><h3><span class="ico">🧊</span>Blockers &amp; Bosses · 障碍与首领关</h3>
+      <p>Chip through <b>jelly, ice and chains</b>; boss levels ask you to clear a target color instead of a score.<br>果冻、冰块、锁链层层破解；首领关需消除指定颜色。</p></div>
+    <div class="card"><h3><span class="ico">🔨</span>Power-ups · 道具</h3>
+      <p><b>Hammer, Bomb, Shuffle, Color Bomb, +5 Moves</b> — turn a tight round around.<br>锤子、炸弹、洗牌、彩色炸弹、加五步——逆风翻盘。</p></div>
+  </div>
+
+  <h2>A journey around the world<span class="zh">环游世界</span></h2>
+  <p class="lead">A 100-level campaign across six regions — China, Japan, Egypt, Europe, the Americas and Oceania. Every landmark you clear is stamped into your personal <b>Passport</b>, ready to share with friends.<br>
+     六大区域（中国、日本、埃及、欧洲、美洲、大洋洲）共 100 个关卡。每抵达一个地标，你的专属<b>护照</b>就会盖上一枚印章，并可分享给好友。</p>
+
+  <h2>Every day &amp; every season<span class="zh">每日与每季</span></h2>
+  <ul class="feat">
+    <li><b>Daily Challenge · 每日挑战</b> — same board for everyone, one attempt a day; beat your best score for the leaderboard. 全服同一棋盘，每日一次机会，刷新最佳成绩冲榜。</li>
+    <li><b>Battle Pass · 战斗通行证</b> — earn XP from stars and wins, unlock tier rewards all season. 星星与胜利累积经验，整季解锁等级奖励。</li>
+    <li><b>Game Center · 成就与排行榜</b> — achievements and leaderboards via Apple Game Center. 通过 Apple Game Center 比拼成就与排行。</li>
+    <li><b>Hearts &amp; coins · 生命与金币</b> — a fair free-to-play loop: hearts refill over time, coins buy power-ups. 公平的免费游玩循环：生命随时间恢复，金币购买道具。</li>
+    <li><b>9 languages &amp; dark/light themes · 9 种语言与深浅主题</b> — play in your language, your way. 支持中、英、日、韩、法、德、西、葡、阿拉伯语。</li>
+  </ul>
+
+  <div class="cta">
+    <span class="badge">Wishlist it on the App Store · 敬请期待</span>
+  </div>
+
+  <footer>
+    © 2026 Gem Match. All rights reserved.<br>
+    <a href="support.html">Support · 技术支持</a> · <a href="privacy.html">Privacy Policy · 隐私政策</a>
+  </footer>
+</div>
+</body>
+</html>
