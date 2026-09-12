@@ -5,8 +5,9 @@ hosted on GitHub Pages. English + 中文 (English is the authoritative version).
 
 - `index.html` → served at the repo root URL
 - `privacy.html` → same content at an explicit path (use this as the official URL)
+- `support.html` → technical support page (App Store Connect "Support URL")
 
-Both files are identical; keep them in sync when you edit.
+index.html and privacy.html are identical; keep them in sync when you edit.
 Contact email baked in: `wanggyxfmail@gmail.com`.
 
 ## Enable GitHub Pages
