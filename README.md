@@ -1,11 +1,12 @@
-# Gem Match — Privacy Policy
+# Match Voyage — Privacy Policy
 
-Static, dependency-free privacy policy page for the **Gem Match** iOS app,
+Static, dependency-free privacy policy page for the **Match Voyage** iOS app,
 hosted on GitHub Pages. English + 中文 (English is the authoritative version).
 
 - `index.html` → served at the repo root URL
 - `privacy.html` → same content at an explicit path (use this as the official URL)
-- `support.html` → technical support page (App Store Connect "Support URL")
+- `support.html` → technical support page
+- `terms.html` → terms of use and subscription terms page (App Store Connect "Support URL")
 - `marketing.html` → marketing / landing page (App Store Connect "Marketing URL"),
   uses compressed screenshots in `screenshots/`
 
